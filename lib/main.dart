@@ -14,10 +14,10 @@ class App extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Layout',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 179, 171, 193)),
+        colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 2, 255, 234)),
         useMaterial3: true,
       ),
-      home: const HomePage(title: 'Programa Layout'),
+      home: const HomePage(title: 'Calculadora Web'),
     );
   }
 }
@@ -38,6 +38,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color.fromARGB(255, 0, 0, 0),
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text(widget.title),
