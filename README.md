@@ -3,6 +3,7 @@
 Este é um projeto de uma calculadora desenvolvido em Flutter.
 
 **A calculadora funciona da seguinte forma:**
+
 -Você clica os numeros e a espressão será visualizada na parte superior do container.
 
 -O resultado ira aparecer abaixo
